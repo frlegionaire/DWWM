@@ -31,3 +31,30 @@ body{
     background-color: #6C5b7b;
 
 }
+
+nav ul {
+    list-style-type: none; /* supprime les puces */ 
+    margin : 0;
+    padding: 0;
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    justify-content: space-around; /* Espace les éléments de manière égale */
+    background-color: #6C5b7b;
+
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Couleur de fond au survol */
+}
