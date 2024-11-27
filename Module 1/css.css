@@ -1,0 +1,33 @@
+body{
+    background-color: #f1ff72;
+    font-family : arial, sans serif;
+    color: #f53b3b;
+    font-size: 1em;
+}
+
+.title {
+    text-align: center; 
+    color: #4caf50;
+    font-size: 2em;
+}
+
+.title2 {
+    text-align : left;
+    color: #00ffc8;
+}
+
+.titletbl {
+    color:#5808d8;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 1em;
+    border: #4CAF50;
+
+}
+
+.styled-table tr {
+    background-color: #6C5b7b;
+
+}
