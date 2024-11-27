@@ -2,7 +2,7 @@ body{
     background-color: #f1ff72;
     font-family : arial, sans serif;
     color: #f53b3b;
-    font-size: 1em;
+    font-size: 1em; /* taille caractére */
 }
 
 .title {
@@ -45,16 +45,26 @@ nav ul {
 nav ul li {
     margin: 0;
     padding: 0;
-    display: inline;
+
 }
 
 nav ul li a {
     display: block;
-    padding: 20px 20px;
+    padding: 20px 20px; /* taille du bandeau */
     text-decoration: none;
     color: white;
 }
 
 nav ul li a:hover {
     background-color: #111; /* Couleur de fond au survol */
+}
+
+footer{
+    margin-top: 32px;
+}
+
+footer img{
+    margin-top: 8px;
+    display: block;
+    
 }
