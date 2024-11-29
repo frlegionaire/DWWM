@@ -1,21 +1,20 @@
+html,
 body {
-    display: flex;
-    background-color: pink;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  height: 100%;
 }
 
-div {
-    height: 100px;
-    width: 100px;
-    background-color: white;
+div div {
+  height: 100px;
+  width: 100px;
+  background-color: white;
 }
 
-div:nth-child(even) div:nth-child(odd) {
-    background-color: black;
-}
-
+div:nth-child(even) div:nth-child(odd),
 div:nth-child(odd) div:nth-child(even) {
-    background-color: black;
+  background-color: black;
 }
