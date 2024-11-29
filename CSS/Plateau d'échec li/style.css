@@ -1,0 +1,38 @@
+* {
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+ul:nth-child(odd) {
+  flex-direction: row;
+}
+
+ul:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+li {
+  display: flex;
+  list-style-type: none;
+  width: 92px;
+  height: 92px;
+}
+
+li img {
+  align-items: center;
+  justify-content: center;
+}
+
+li:nth-child(even) {
+  background-color: white;
+}
+
+li:nth-child(odd) {
+  background-color: black;
+}
