@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+}
+
+
 body{
     background-color: #f1ff72;
     font-family : arial, sans serif;
@@ -32,6 +37,7 @@ body{
 
 }
 
+
 nav ul {
     list-style-type: none; /* supprime les puces */ 
     margin : 0;
@@ -56,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #111; /* Couleur de fond au survol */
+    color: blue; /* Couleur de fond au survol */
 }
 
 footer{
