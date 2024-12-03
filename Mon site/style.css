@@ -37,18 +37,27 @@ body {
 .navbar_logo img{
     height: 100px;
     width: 100px;
-    padding: 0 2vw;
+}
+
+.navbar_links {
+    list-style-type: none; /* supprime les puces */ 
+    display: flex; /* Utilise flexbox pour aligner les éléments */
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
 }
 
 .navbar_burger {
     height: 50px;
     width: 50px;
+    gap: 2rem;
+
 }
 
 
-.navbar_burger {
-    display: none;
-}
+/* .navbar_burger {
+    display: none; */
+
 
 @media screen and (max-width: 768px) {
     .navbar_header>.navbar_logo {
@@ -71,13 +80,6 @@ body {
     }
 }
 
- .navbar_links {
-    list-style-type: none; /* supprime les puces */ 
-    margin: 0;
-    padding: 0;
-    display: flex; /* Utilise flexbox pour aligner les éléments */
-    justify-content: right;
-}
 
 nav ul li {
     margin: 0;
