@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 html, body { 
     height: 100%;
     width: 100%;
@@ -16,47 +17,71 @@ body {
     background-color: #606060;
 }
 
+  
+nav {
+    display: flex;
+    justify-content: center;
+    color: #F2F1F1;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
 
 nav ul {
-    position: fixed;
-    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+.navbar1 {
+    margin-right: 20px;
+}
+
+.navbar2 {
+    margin-left: 20px;
+}
+
+#logo_header a:hover {
+    content: url(img/logo_hover.png);
+}
+
+ul a {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    list-style: none;
-    height: 100px;
-    z-index: 1000;
-
+    justify-content: center; 
+    height: 100%;
+    width: 10vw;
 }
 
-nav ul li {
-    margin: 0;
-    padding: 0;
-
+.menu-item:hover {
+    border-bottom: #d2a679 3px solid;
+    padding-bottom: 5px;
+    color: #d2a679;
 }
 
-nav ul li a {
-    display: block;
-    padding: 20px 20px; /* taille du bandeau */
-    text-decoration: none;
+
+.ParaHeader {
     color: white;
-    font-size: 15px;
-
+    font-family: arial, sans serif;
+    text-align: right;
+    position: relative;
+    right: 24%;
+    top: 22%;
 }
 
-nav ul li a img {
-    height: 50px;
-    width: 50px;
-}
-nav ul li a:hover {
-    color: blue; /* Couleur de fond au survol */
+.ParaHeader h2 {
+    letter-spacing: 5px;
+    font-size: 50px;
 }
 
-footer{
-    margin-top: 32px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: flex-end;
-    color: white;
+.textheader {
+    margin-top: 25px;
+    letter-spacing : 2px;
+}
+
+.textheader p {
+    margin-top: 10px;
 }
