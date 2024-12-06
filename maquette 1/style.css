@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Barlow Condensed", sans-serif;
+  }
+  
+  header {
+    background-image: url(https://raw.githubusercontent.com/BrandtThomas/Maquette1/refs/heads/main/bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 770px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    color: #F2F1F1;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-size: 15px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+section {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-image: url(img/bg_header.jpg);
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 330px;
+  }
+  
+
+.navbar1 {
+    margin-right: 20px;
+}
+
+.navbar2 {
+    margin-left: 20px;
+}
+
+#logo_header a:hover {
+    content: url(img/logo_hover.png);
+}
+
+ul a {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%;
+    width: 10vw;
+}
+
+.menu-item:hover {
+    border-bottom: #d2a679 3px solid;
+    padding-bottom: 5px;
+    color: #d2a679;
+}
+  
+  .logo:hover {
+    content: url(img/logo_hover.png);
+  }
+  
+  .CONCERT1 {
+    font-size: 50px;
+    word-spacing: 15px;
+    letter-spacing: 5px;
+  }
+  
+  .NEWYORK1 {
+    font-size: 75px;
+    word-spacing: 15px;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+  .Page1 {
+    color: white;
+  }
+  
+  .Text1 {
+    text-align: right;
+    float: right;
+    margin-right: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .Boutton1 {
+    background-color: #c99c66;
+    color: #fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: "Barlow Condensed", sans-serif;
+    letter-spacing : 2px;
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  
+  .Page2 {
+    display: flex;
+    justify-content: center;
+    background-color: #606060;
+    width: 100%;
+  }
+  
+  .ABOUT1 {
+    padding: 40px;
+    width: 50%;
+    height: 500px;
+    background-color: #272727;
+  }
+  
+  .hall {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .GOHALL1 {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .aboutt {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .titrepartie2 {
+    color: #cca57c;
+    font-weight: bold;
+  }
+  
+  .titre1 {
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 25px;
+    word-spacing: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .para1 {
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+    color: white;
+  }
+  
+  .PARAGRAPHE1 {
+    display: flex;
+  }
+  
+  .PARAPHOTO {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .LOREM2 {
+    margin-top: 25px;
+  }
+  
+  .milieu {
+    border-left: 3px solid #cca57c;
+    color: #cca57c;
+    margin-top: 25px;
+    color: #bf9b75;
+  }
+  
+  .decal {
+    margin-left: 70px;
+    color: #cca57c;
+  }
+  
+  .LONDONPHOTO {
+    position: relative;
+  }
+  
+  .LondonHall1 {
+    background-color: #cca57c;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    padding: 5px 10px;
+  }
+  
+  .Page3 {
+    display: flex;
+    justify-content: center;
+    background-color: #606060;
+    width: 100%;
+  }
+  
+  .ABOUT2 {
+    padding: 40px;
+    width: 50%;
+    height: 500px;
+    background-color: #cca57c;
+  }
+  
+  .aboutt2 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .projects1 {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .boite1 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Paris1 {
+    margin-inline: 10px;
+    background-image: url(img/paris.jpg);
+    width: 220px;
+    height: 350px;
+  }
+  
+  .London1 {
+    margin-inline: 10px;
+    background-image: url(img/london.jpg);
+    width: 220px;
+    height: 350px;
+  }
+  
+  .logo12 {
+    margin-inline: 10px;
+  }
+  
+  .Work1 {
+    color: black;
+  }
+  
+  .Market1 {
+    color: white;
+  }
+  
+  .Page4 {
+    display: flex;
+    justify-content: center;
+    background-color: #606060;
+    width: 100%;
+  }
+  
+  .ABOUT3 {
+    padding: 40px;
+    width: 50%;
+    height: 500px;
+    background-color: #272727;
+  }
+  
+  .aboutt3 {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .services1 {
+    color: #cca57c;
+    font-weight: bold;
+  }
+  
+  .logo12 img {
+    margin-bottom: 30px;
+  }
+  
+  .WorKet1 {
+    margin-bottom: 20px;
+  }
+  
+
+.Conimg1 {
+    color: white;
+    position: relative;
+    left: 22px;
+    bottom: -20px;
+  }
+
+.Conimg2 {
+    color: #cca57c;
+    position: relative;
+    bottom: 11px;
+    left: 46px;
+  }
+
+  
+.dateproject{
+    color: white;
+    background-color: #272727;
+    position: relative;
+    width: fit-content;
+    padding: 2px 7px;
+    top: 215px;
+    left: 22px;
+  }
+
+  .hyut {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+  .boite2 {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 7%;
+    gap: 20px;
+  }
+  
+  .Dev1 {
+    color: white;
+  }
+  
+  .PlansWorks1 {
+    color: white;
+  }
+  
+  .PDev1 {
+    color: rgba(74,74,74,255);
+    height: 40%;
+  }
+  
+  .PDev2 {
+    color: rgba(74,74,74,255);
+    height: 40%;
+  }
+  
+  .boite3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+  }
+  
+  .Icon1 {
+    width: 50%;
+  }
+  
+  .Icon2 {
+    width: 50%;
+  }
+  
+  .GOHALL2 {
+    display: flex;
+    margin-bottom: 5%;
+    gap: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  
+  .More1 {
+    background-color: #606060;
+    color: #b39575;
+    display: flex;
+    justify-content: end;
+    width: 55%;
+    padding: 2px 4px;
+    border-left: 3px solid #cca57c;
+  }
+  
+  .More1:hover {
+    background-color: #cca57c;
+    color: #606060;
+  }
+  
+  .Map1 {
+    border-top: 1px solid #cca57c;
+    border-bottom: 1px solid #cca57c;
+    padding: 20px;
+  }
+  
+  .paramap1 {
+    text-align: right;
+    color: white;
+    margin-top: 15px;
+  }
+
+  .footer {
+    background-image: url('img/bg_footer.jpg');
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+.alignbas {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+  
+  .footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .visugauche {
+    background-image: url(img/visuelgauche.jpg);
+    width: 400px;
+    height: 300px;
+  }
+
+  .visugauche h2 {
+    margin-left: 20px;
+    color:#fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+  }
+
+.visudroit {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+  .alignbas .decalageh {
+    margin-top: 20px;
+  }
+
+  input, textarea {
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    border-bottom: #606060 1px solid;
+  }
+
+  textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  button {
+    background-color: #c99c66;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 150px;
+  }
+
+::placeholder {
+    color:#fff;
+    font-size: 15px;
+    font-weight: bold;
+}
