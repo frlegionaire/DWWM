@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+}
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #3c3c3c;
+}
+
+header {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.headcomplet {
+    height: 100%;
+    width: 100%;
+}
+
+.headerback {
+    background-image: url('img/bg_header.jpg');
+    background-size: cover;
+    height: 85%;
+}
+
+.headerback img {
+    position: relative;
+    top: 27%;
+    left: 36%;
+    width: 28%;
+
+}
+
+.navbar {
+    background-color: #fec88a;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbarsearch {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navlist {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 38%;
+}
+
+
+nav ul li {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: #b05746;
+}
+
+.search-container {
+    display: flex; 
+    align-items: center; 
+    position: relative;
+    left: 80%;
+}
+
+.loupe {
+    background-color: #b05746;
+    height: 38px;
+    width: 38px;
+}
+
+.loupe i {
+    position: relative;
+    top: 30%;
+    left: 30%;
+    background-color: transparent;
+}
+
+.search-container input {
+    padding: 0.5rem; 
+    font-size: 16px; 
+    border: 2px solid #b05746; 
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #b05746;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.menu3items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 32px;
+}
+
+.soupe {
+    background-image: url('img/soupe.jpg');
+    height: 225px;
+    width: 300px;
+    grid-area: 1 / 2 / 2 / 3;
+
+}
+
+.salade {
+    background-image: url('img/salade.jpg');
+    height: 225px;
+    width: 300px;
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+.dessert {
+    background-image: url('img/dessert.jpg');
+    height: 225px;
+    width: 300px;
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.menu3items p {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 42%;
+    left: 5%;
+    padding: 10px;
+    width: 82%;
+    color: #fec88a;
+    border-top: #fec88a solid 0.5px;
+    border-bottom: #fec88a solid 0.5px;
+    letter-spacing: 3px;
+}
+
+.partiegauchebandeau {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-top: 32px;
+
+
+}
+
+.partiedroite {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    margin-top: 32px;
+}
+
+.photome {
+    background-image: url('img/me.jpg');
+    height: 380px;
+    width: 300px;
+    grid-area: 1 / 4 / 2 / 5;
+}
+
+.bandeauarticles {
+    display: flex;
+    justify-content: center;
+    grid-area: 1 / 2 / 2 / 4;
+    color: #fec88a;
+    border-top: #b05746 solid 0.5px;
+    border-bottom: #b05746 solid 0.5px;
+    width : 91%;
+    height: 20px;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+.aboutme {
+    color: #3c3c3c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.abouttexte {
+    color: #3c3c3c;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+.tacos {
+    margin-top: 100px;
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: #c2c57e;
+    width: 620px;
+}
+
+.imgtacos {
+    background-image: url('img/tacos.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 620px;
+}
+
+.texttacos {
+    text-align: center;
+}
+
+.titretacos {
+    color:#b05746;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.nomtacos {
+    color:#3c3c3c;
+    font-weight: bold;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.auteurtacos {
+    color: grey;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.corpustacos {
+    color:#3c3c3c;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    padding: 5px;
+    padding-bottom: 150px;
+}
