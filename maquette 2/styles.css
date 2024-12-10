@@ -4,7 +4,6 @@
 
 html, 
 body {
-    height: 100%;
     width: 100%;
 }
 
@@ -13,7 +12,6 @@ body {
 }
 
 header {
-    height: 70%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -53,7 +51,7 @@ header {
 .navbar {
     background-color: #fec88a;
     width: 100%;
-    height: 15%;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,16 +169,7 @@ main {
 .partiegauchebandeau {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    margin-top: 32px;
-
-
-}
-
-.partiedroite {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-top: 32px;
 }
 
@@ -284,6 +273,11 @@ main {
     padding-right: 40px;
 }
 
+.listeboire li a img{
+    height: 20px;
+    width: 20px;
+}
+
 .bierespref {
     background-image: url('img/bieres.jpg');
     height: 385px;
@@ -339,6 +333,7 @@ main {
     grid-area: 1 / 2 / 2 / 4;
     background-color: #c2c57e;
     position: relative;
+    height: 600px;
     width: 620px;
 }
 
@@ -351,13 +346,14 @@ main {
 
 .texttacos {
     text-align: center;
+    padding: 35px;
 }
 
 .titretacos {
     color:#b05746;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .nomtacos {
@@ -381,6 +377,7 @@ main {
     word-spacing: 1px;
     padding: 5px;
     padding-bottom: 70px;
+    line-height: 20px;
 }
 
 .artcafe {
@@ -556,5 +553,163 @@ main {
     width: 75px;
     position: absolute;
     top: 26%;
-    left: 35%;
+    left: 37%;
+}
+
+.COOKIE {
+    grid-area: 3 / 2 / 3 / 4;
+    background-color: #c2c57e;
+    position: relative;
+    height: 600px;
+    width: 620px;
+    margin-top: -50px;
+}
+
+.imgCookie {
+    background-image: url('img/cookies.jpg');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 620px;
+}
+
+.bandeaufin {
+        display: flex;
+        justify-content: center;
+        grid-area: 4 / 2 / 4 / 5;
+        color: #fec88a;
+        border-top: #b05746 solid 0.5px;
+        border-bottom: #b05746 solid 0.5px;
+        width : 94%;
+        height: 20px;
+        padding: 20px;
+        margin-top: -60px;
+    }
+
+.galeriephoto {
+    display: grid;
+    grid-template-columns: repeat(5, 320px);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.burger {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url('galeries/hamburger.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+}
+
+.wraps {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url('galeries/pexels-photo-76784.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+}
+
+.gateau {
+    grid-area: 1 / 4 / 2 / 5;
+    background-image: url('galeries/pexels-photo-132694.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+}
+
+.panckake {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url('galeries/pexels-photo-376464.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.oeuf {
+    grid-area: 2 / 3 / 3 / 4;
+    background-image: url('galeries/pexels-photo-566566.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+.saumon {
+    grid-area: 2 / 4 / 3 / 5;
+    background-image: url('galeries/salmon-dish-food-meal-46239.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 225px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+}
+
+.footer {
+    background-image: url('img/Calque.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    position: relative;
+}
+
+.logofooter {
+    background-image: url('img/logo_footer.png');
+    background-size: cover;
+    background-position: center;
+    height: 62px;
+    width: 140px;
+    position: absolute;
+    left: 13%;
+    top: 22%;
+}
+
+.footergauche {
+    display: flex;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+
+.footergauche ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 400px;
+    gap: 50px;
+    font-size: 20px;
+    color: #ffffffea;
+}
+
+.textFooter {
+    display: flex;
+    text-align: right;
+    position: absolute;
+    right: 12.5%;
+    top: 50%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.textFooter p {
+    color: #ffffffea;
 }
