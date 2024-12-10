@@ -212,6 +212,116 @@ main {
     letter-spacing: 1px;
     padding: 10px;
 }
+
+.iconreseaux {
+    display: flex;
+    justify-content: center;
+
+}
+
+.iconreseaux ul {
+    display: flex;
+    list-style: none;
+    position: relative; 
+    padding: 250px;
+    gap: 10px;
+    
+
+}
+
+.categoriesalcool {
+    display: grid;
+    grid-area: 1 / 4 / 2 / 5;
+    margin-top: 430px;
+}
+
+.bandeaucategories {
+    display: flex;
+    justify-content: center;
+    color: #fec88a;
+    border-top: #b05746 solid 0.5px;
+    border-bottom: #b05746 solid 0.5px;
+    width: 82%;
+    height: 20px;
+    padding: 20px;
+}
+
+.listeboire {
+    list-style-type: none;
+    padding-bottom: 30%;
+    padding-left: 0;
+}
+
+.listeboire li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 5px;
+}
+
+.listeboire li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-right: 40px;
+}
+
+.bierespref {
+    background-image: url('img/bieres.jpg');
+    height: 385px;
+    width: 300px;
+    grid-area: 1 / 4 / 3 / 5;
+    margin-top: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}  
+
+.bieresbordure {
+    height: 355px;
+    width: 270px;
+    border: #fec88a solid 1px;
+}
+
+.textBieres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    gap: 23px;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #fec88a;
+}
+
+.textBieresGras {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.btn {
+        background-color: #a1393a;
+        color: #ffffffea;
+        padding: 10px 30px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing : 1px;
+        font-size: 17px;
+        margin-top: 50px;
+}
+
 .tacos {
     margin-top: 100px;
     grid-area: 1 / 2 / 2 / 4;
@@ -257,5 +367,161 @@ main {
     letter-spacing: 1px;
     word-spacing: 1px;
     padding: 5px;
-    padding-bottom: 150px;
+    padding-bottom: 70px;
+}
+
+.artcafe {
+    background-image: url('img/cafe.jpg');
+    height: 385px;
+    width: 300px;
+    grid-area: 2 / 4 / 4 / 5;
+    margin-top: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+.cafeBordure {
+    height: 355px;
+    width: 270px;
+    border: #fec88a solid 1px;
+}
+
+.textCafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    gap: 23px;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: #fec88a;
+}
+
+.textCafeGras {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.btn {
+        background-color: #a1393a;
+        color: #ffffffea;
+        padding: 10px 30px;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        letter-spacing : 1px;
+        font-size: 17px;
+}
+
+.COTEDEBOEUF {
+    margin-top: 50px;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #c2c57e;
+    height: 550px;
+    width: 300px;
+}
+
+.imgBoeuf {
+    background-image: url('img/cote_de_boeuf.jpg');
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 300px;
+}
+
+.textBoeuf {
+    text-align: center;
+    padding: 35px;
+    margin-top: 80px;
+}
+
+.titreBoeuf {
+    color:#b05746;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nomBoeuf {
+    color:#3c3c3c;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.auteurBoeuf {
+    color: grey;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.corpusBoeuf {
+    color:#3c3c3c;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.CARROTCAKE {
+    margin-top: 50px;
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #c2c57e;
+    height: 550px;
+    width: 300px;
+}
+
+.imgCake {
+    background-image: url('img/carrot.jpg');
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 300px;
+}
+
+.textCake {
+    text-align: center;
+    padding: 35px;
+    margin-top: 80px;
+}
+
+.titreCake {
+    color:#b05746;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nomCake {
+    color:#3c3c3c;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.auteurCake{
+    color: grey;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.corpusCake {
+    color:#3c3c3c;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 20px;
+    padding-bottom: 40px;
 }
